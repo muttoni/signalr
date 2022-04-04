@@ -11,7 +11,6 @@
   "directories": {
     "test": "spec"
   },
-  "sideEffects": false,
   "scripts": {
     "preclean": "cd ../common && yarn install --mutex network --frozen-lockfile",
     "clean": "node ../common/node_modules/rimraf/bin.js ./dist",
